@@ -1,0 +1,33 @@
+.friendsContent-tab {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.friendsContent-tab div,
+button {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.friendsContent-tab button {
+    border-radius: 1rem;
+    padding: 8px;
+}
+
+.followingCancelBtn,
+.blockBtn,
+.followBtn {
+    cursor: pointer;
+}
+
+.state {
+    font-weight: 500;
+    color: #000;
+}
+
+.labelState {
+    color: #c0c0c0;
+}

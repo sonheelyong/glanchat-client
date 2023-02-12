@@ -1,0 +1,24 @@
+.BoardForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.searchInput {
+    border: 1px solid #ccc;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.btn {
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

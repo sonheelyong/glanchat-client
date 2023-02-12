@@ -1,0 +1,54 @@
+.findIdDiv {
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+
+.findIdForm {
+    border-radius: 1rem;
+    border: solid 1px #000;
+    width: 55%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.hr {
+    margin-bottom: 2rem;
+}
+
+.h3 {
+    margin-top: 2rem;
+    text-align: center;
+    
+
+}
+
+
+.authBox {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 5%;
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #000;
+}
+
+.boxDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.boxDiv2 {
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.boxDiv3 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 50px;
+}

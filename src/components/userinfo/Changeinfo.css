@@ -1,0 +1,87 @@
+.findIdDiv {
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+
+.findIdForm {
+    border-radius: 1rem;
+    border: solid 1px #000;
+    width: 55%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.hr {
+    margin-bottom: 2rem;
+}
+
+.h3 {
+    margin-top: 2rem;
+    text-align: center;
+    
+
+}
+
+
+.authBox {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 5%;
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #000;
+}
+
+.telBox1 {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #000;
+    
+    
+}
+
+.tel1 {
+    position: relative;
+    margin:auto;
+    margin-left: 65px;
+    width: 50%;
+    height: 20px;
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #000;
+    
+    
+}
+
+.boxDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+  textarea {
+    width: 60%;
+    height: 10em;
+    border: none;
+    resize: none;
+  }
+
+  .nickcheck {
+    
+    margin-right: 100px;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #dfb8b8;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+}

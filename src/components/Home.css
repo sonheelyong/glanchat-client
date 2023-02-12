@@ -1,0 +1,53 @@
+.homeBackground {
+    width: 100%;
+    height: 80%;
+    max-width: 500px;
+    background-color: #273e6e;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* box-shadow: 10px 13px 13px -4px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 10px 13px 13px -4px rgba(0,0,0,0.7);
+  -moz-box-shadow: 10px 13px 13px -4px rgba(0,0,0,0.7); */
+  }
+  
+.buttomLabel {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.titleName {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    display: flexbox;
+    position: absolute;
+    
+}
+
+#SpinnerStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    position: relative;
+    
+}
+
+.startButton {
+    
+    margin: auto;
+    background-color: #dfb8b8;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}

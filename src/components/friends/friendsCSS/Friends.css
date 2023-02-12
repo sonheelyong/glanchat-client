@@ -1,0 +1,44 @@
+.tabs {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+.tabs_item {
+  width: calc(100%/2);
+  /* height: 50px; */
+  border-bottom: 1px solid #333333;
+  background-color: #f8f8f8;
+  line-height: 50px;
+  font-size: 16px;
+  color: #333333;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.tabs_item:hover {
+  cursor: pointer;
+}
+
+input[name="tabs_item"] {
+  display: none;
+}
+
+.tab_con {
+  display: none;
+  padding: 40px 40px 40px;
+  clear: both;
+  overflow: hidden;
+}
+
+#friendsList:checked ~ #friendsList_con,
+#follower:checked ~ #follower_con {
+  display: block;
+}
+
+.tabs input:checked + .tabs_item {
+  background-color: #333333;
+  color: #fff;
+}

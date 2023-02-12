@@ -1,0 +1,30 @@
+.BlockListForm {
+  border-radius: 1rem;
+  border: solid 1px #000;
+  width: max-content;
+  height: max-content;
+  display: inline-flex;
+
+}
+
+.BlockListhr {
+  border: solid 1px #000;
+}
+
+.Block-width-hr{
+  margin : 0px;
+  width : 1px;
+}
+
+.block-profile-box{
+  width: 25%;
+  height: 25%;
+  border-radius: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  border: none;
+}
+
+.block-profile-div{
+  display: inline-flex;
+}

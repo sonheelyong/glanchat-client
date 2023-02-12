@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.tab1 {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  justify-content: center;
+}
+
+.tab2 {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.tab3 {
+  top: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  transition: all 1s;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 2rem;
+  color: #273e6e;
+  cursor: pointer;
+}
+
+.dropdown-box {
+  display: block;
+  max-height: 88px;
+  max-width: 88px;
+  font-size: 14px;
+  cursor: pointer;
+}

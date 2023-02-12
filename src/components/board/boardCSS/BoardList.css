@@ -1,0 +1,14 @@
+.boardList {
+    display: flex;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.boardLabelState {
+    margin-top: 10rem;
+    color: #bdbdbd;
+  }

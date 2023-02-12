@@ -1,0 +1,20 @@
+.recommend-box{
+  width: 20%;
+  height: 20%; 
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.recommend-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recommend-info{
+  display: block;
+}
+
+.recommend-button-container{
+  display: flex;
+  justify-content: space-around;
+}
